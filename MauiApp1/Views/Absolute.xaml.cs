@@ -6,4 +6,9 @@ public partial class Absolute : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PopToRootAsync();
+    }
 }

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.Flex"
              Title="Flex">
-    <FlexLayout Direction="Column"
+    <FlexLayout Direction="Row"
                 AlignItems="Center"
                 Wrap="Wrap"
                 JustifyContent="SpaceEvenly">
