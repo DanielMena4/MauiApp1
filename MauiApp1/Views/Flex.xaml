@@ -16,7 +16,7 @@
         <Button Text="Boton4"
                 Width="100" Height="50"/>
         <Button
-            Text="Ir a FlexLayout"
+            Text="Ir a AbsoluteLayout"
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             Clicked="Button_Clicked"

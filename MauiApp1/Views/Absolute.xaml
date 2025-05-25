@@ -3,10 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.Absolute"
              Title="Absolute">
-    <AbsoluteLayout Margin="20">
+    <AbsoluteLayout Margin="1">
         <Image Source="jotchua.jpg"
                AbsoluteLayout.LayoutBounds="0.5,0"
+               WidthRequest="100"
+               HeightRequest="100"
                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <ScrollView AbsoluteLayout.LayoutBounds="0.5,0.5,0.5,0.5"
+                    AbsoluteLayout.LayoutFlags="All">
+            <VerticalStackLayout Padding="5" Spacing="15">
+                <Label Text="Contenido 1" FontSize="20"/>
+                <Label Text="Contenido 2" FontSize="20"/>
+                <Label Text="Contenido 3" FontSize="20"/>
+                <Label Text="Contenido 4" FontSize="20"/>
+                <Label Text="Contenido 5" FontSize="20"/>
+                <Label Text="Contenido 6" FontSize="20"/>
+                <Label Text="Contenido 7" FontSize="20"/>
+                <Label Text="Contenido 8" FontSize="20"/>
+                <Label Text="Contenido 9" FontSize="20"/>
+                <Label Text="Contenido 10" FontSize="20"/>
+                <Label Text="Contenido 11" FontSize="20"/>
+                <Label Text="Contenido 12" FontSize="20"/>
+                <Label Text="Contenido 13" FontSize="20"/>
+                <Label Text="Contenido 14" FontSize="20"/>
+                <Label Text="Contenido 15" FontSize="20"/>
+            </VerticalStackLayout>
+        </ScrollView>
         <Button Text="Ir a Grid"
                 AbsoluteLayout.LayoutBounds="1,1"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
